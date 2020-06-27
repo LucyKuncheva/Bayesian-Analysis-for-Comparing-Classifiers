@@ -6,7 +6,7 @@ The repository contains the following files:
 
 - `BayesianAnalyisExample.m` This is an example that runs the Bayesian Analysis and reproduces 
   - Figure 10 (the histogram of theta_left) 
-  - <img align="left" height="120" src="Histogram_Figure10.png">
+  - <img align="left" height="120" src="Histogram_Figure10.png"><\p>
   
   - and Figure 11 (the triangle with the point cloud)
   - (<img align="left" height="250" src="TriangleBarycentricCloud_Figure11.png">)
