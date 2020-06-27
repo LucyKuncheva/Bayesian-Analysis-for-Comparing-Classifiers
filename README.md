@@ -4,7 +4,7 @@ This is a small MATLAB implementation of some of the functionalities of JanezDem
 
 The repository contains the following files:
 
-- `BayesianAnalyisExample.m` This is an example that runs the Bayesian Analysis and reproduces 
+- `BayesianAnalyisExample.m` This is an example that runs the Bayesian Analysis exaplained in the paper and reproduces 
   - Figure 10 (the histogram of theta_left) 
   
     <img height="170" src="Histogram_Figure10.png" />
