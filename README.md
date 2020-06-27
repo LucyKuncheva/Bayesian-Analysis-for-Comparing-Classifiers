@@ -1,6 +1,6 @@
 # Bayesian-Analysis-for-Comparing-Classifiers
 
-This is a small MATLAB implementation of some of the functionalities of JanezDemsar’s Python library `baycomp` available here: https://github.com/janezd/baycomp. The code can be used for comparing two classifiers using the Signed Rank Test proposed in the paper: [A. Benavoli, G. Corani, J. Demsar, M. Zaffalon, "Time for a Change: a Tutorial for Comparing Multiple Classifiers Through Bayesian Analysis", Journal of Machine Learning Research 18 (2017) 1-36.](http://jmlr.org/papers/volume18/16-305/16-305.pdf) 
+This is a small MATLAB implementation of some of the functionalities of Janez Demsar’s Python library `baycomp` available here: https://github.com/janezd/baycomp. The code can be used for comparing two classifiers using the Signed Rank Test proposed in the paper: [A. Benavoli, G. Corani, J. Demsar, M. Zaffalon, "Time for a Change: a Tutorial for Comparing Multiple Classifiers Through Bayesian Analysis", Journal of Machine Learning Research 18 (2017) 1-36.](http://jmlr.org/papers/volume18/16-305/16-305.pdf) 
 
 The repository contains the following files:
 
