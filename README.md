@@ -17,6 +17,7 @@ The repository contains the following files:
 - `signed_rank_test_diff.m` This is a function that takes a vector of differences of classifier accuracies across multiple data sets (A-B) and calculates the results of the signed rank test. The function is largely translated from the respective component of the `baycomp` library. It outputs an array with probability density values (theta_left, theta_rope, theta_right) needed for the triangle plot and the set of three probabilities **p_left** (classifier A is better), **p_rope** (the two classifiers are equivalent) and **p_right** (classifier B is better). 
 - `barycentric_plot.m` This code is used to plot the triangle diagram with the cloud of simulated points in barycentric coordinates. 
 - `density_plot.m` This is a function that produces a scatterplot in the current axes, where each point is coloured depending on the density of its neighbourhood.
+- `two_classifiers_one_dataset` This function computes probabilities using a Bayesian correlated t-test. It was written directly in MATLAB using the text of the paper [Benavoli et al., 2017]. The input is a vector of differences of classifier accuracies across one or repeated cross-validation experiment (A-B). The function outputs an array with probabilities **p_left** (classifier A is better), **p_rope** (the two classifiers are equivalent) and **p_right** (classifier B is better). It also outputs the x-y values for the density plot. 
 
 ```
 @misc{KunchevaMATLABBayesian2020,
