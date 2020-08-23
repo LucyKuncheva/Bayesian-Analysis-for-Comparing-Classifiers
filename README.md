@@ -5,7 +5,7 @@ This is a small MATLAB implementation of some of the functionalities of Janez De
 The repository contains the following files:
 
 - `BayesianAnalyisExample.m` This is an example that runs the Bayesian Analysis exaplained in the paper and reproduces 
-  - Figure 10 (the histogram of theta_left) 
+  - Figure 10 (the histogram of theta_left = probability that NBC << AODE) 
   
     <img height="170" src="Histogram_Figure10.png" />
   
