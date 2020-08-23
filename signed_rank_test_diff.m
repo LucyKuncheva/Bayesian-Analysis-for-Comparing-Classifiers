@@ -3,11 +3,11 @@ function [samples, probs] = signed_rank_test_diff(x,rope,prior,T)
 % Input: 
 %     x = difference between the accuracies of classifiers A and B
 %     rope = the rope value ( = 1), assuming the accuracies are in [%] 
-%     s = "prior strength" (recommended value 0.5)
+%     prior = "prior strength" (recommended value 0.5)
 %     T = number of repetitions (50,000 -- 150,000)
 %
 % Output: 
-%     sample = an array of size Tx3. Column 1: thete_left, column 2: 
+%     sample = an array of size Tx3. Column 1: theta_left, column 2: 
 %              theta_rope, column 3: theta_right. If rope == 0, the 
 %              middle column contains NaN.
 %     probs =  [p_left, p_rope, p_right]
